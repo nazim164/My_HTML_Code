@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(137, 197, 26);
+}
+
+table{
+    border: 10px double rgb(114, 71, 255);
+}
+.img1{
+    border: 10px double rgb(3, 33, 44);
+}
+.img2{
+    border: 10px double blue; 
+}

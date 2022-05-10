@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/be4a017746.js" crossorigin="anonymous"></script>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-rows: 100px 100px 100px;
+            grid-template-columns: 200px 200px 200px;
+            grid-gap: 10px;
+            grid-template-areas: "header header";
+        }
+        
+        .grid-item1 {
+            background-color: burlywood;
+        }
+        
+        .grid-item2 {
+            background-color: cyan;
+            grid-row-start: 1;
+            grid-row-end: 4;
+        }
+        
+        .grid-item3 {
+            background-color: chartreuse;
+            grid-row-start: 1;
+            grid-row-end: 4;
+        }
+        
+        .grid-item4 {
+            background-color: lightgreen;
+        }
+        
+        .grid-item5 {
+            background-color: brown;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid-container">
+        <div class="grid-item1">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora beatae assumenda ab possimus nisi in, adipisci omnis molestias, sint officiis illo laudantium animi! Veritatis reiciendis soluta sequi consectetur quaerat voluptas.
+            </p>
+        </div>
+        <div class="grid-item2">two</div>
+        <div class="grid-item3">three</div>
+        <div class="grid-item4">four</div>
+        <div class="grid-item5">five</div>
+        <i class="fa-solid fa-user-large"></i>
+    </div>
+</body>
+
+</html>

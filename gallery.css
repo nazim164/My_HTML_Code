@@ -1,0 +1,30 @@
+body{
+    background-image: url('b2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+table{
+    margin-top: 100px;
+    border: 8px solid white;
+    padding: 6px;
+    border-radius: 10px;
+background-image: url('b1.jpg');
+}
+img{
+    padding: 5px;
+    border: 6px double yellowgreen;
+    border-radius: 10px;
+}
+h2{
+    color: white;
+    font-size: 40px;
+    text-decoration: underline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 5px solid rgb(173, 231, 86);
+    padding: 7px;
+    margin-right: 250px;
+    margin-left: 250px;
+    border-radius: 50px;
+
+}

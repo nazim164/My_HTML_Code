@@ -1,0 +1,17 @@
+body{
+    background-image: url('t1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    color: chartreuse;
+}
+#n1{
+    color: red;
+}
+#n2{
+ color:cyan;
+}
+#n3{
+ color: chocolate;
+}

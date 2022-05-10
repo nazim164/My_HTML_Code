@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Bootstrap CSS -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+            crossorigin="anonymous">
+
+        <title>Axiom Registration</title>
+    </head>
+
+    <body>
+
+        <div class="container-fluid mt-4">
+            <div class="row justify-content-center">
+
+
+                <div class="col-md-8 py-4 border border-dark">
+
+                    <form>
+                        <h1 style="color: rgb(230, 75, 19); font-weight:
+                            bolder;" class="text-center mb-3">Register Here!</h1>
+                        <div class="row mb-2">
+
+                            <div class="col-sm-6">
+                                <label for="exampleInputname"
+                                    class="form-label">Full-Name</label>
+                                <input type="text" name="name"
+                                    class="form-control" id="exampleInputname"
+                                    placeholder="Enter your Full-name"
+                                   aria-describedby="nameHelp"
+                                    required>
+
+                            </div>
+                            <div class="col-sm-6">
+                                <label for="exampleInputnumber"
+                                    class="form-label">Contact-No</label>
+                                <input type="tel" name="contact"
+                                    class="form-control"
+                                    placeholder="XXX-XXX-XXXX" maxlength="10"
+                                    pattern=[0-9]{1}[0-9]{9} title="Please enter
+                                    exactly 10 digits"  required>
+                            </div>
+
+                        </div>
+
+                        <div class="row mb-2">
+
+                            <div class="col-sm-6">
+                                <label for="exampleInputEmail1"
+                                    class="form-label">Email</label>
+                                <input type="email" name="email"
+                                    class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp"
+                                    placeholder="Enter Your Emai-Id"
+                                    required>
+
+                            </div>
+                            <div class="col-sm-6">
+                                <label for="exampleInputcollege"
+                                    class="form-label">College-Name</label>
+                                <input type="text" name="collegeName"
+                                    class="form-control"
+                                    id="exampleInputcollege" placeholder="Enter your College-Name" 
+                                    required>
+                            </div>
+
+                        </div>
+
+                        <div class="row mb-2">
+                            <div class="col-sm-6">
+                                <label class="mb-1">Degree</label>
+                                <select class="form-select" name="degree"
+                                    aria-label="Default select example"
+                                    required>
+                                    <option value="" selected disabled>
+                                        Select Degree</option>
+                                    <option value="B.E">B.E</option>
+                                    <option value="B.tech">B.tech</option>
+                                    <option value="M.tech">M.tech</option>
+                                    <option value="Poly">Poly</option>
+                                    <option value="BCA">BCA</option>
+                                    <option value="MCA">MCA</option>
+                                    <option value="BSC">BSC</option>
+                                    <option value="MSC">MSC</option>
+                                    <option value="Other">Other</option>
+                                </select>
+
+                            </div>
+
+                            <div class="col-sm-6">
+                                <label class="mb-2">Year</label>
+                                <select class="form-select" name="year"
+                                    aria-label="Default select example"
+                                    required>
+
+                                    <option value="" selected disabled>Select
+                                        Year</option>
+                                    <option value="I Year">I Year</option>
+                                    <option value="II Year">II Year</option>
+                                    <option value="III Year">III
+                                        Year</option>
+                                    <option value="IV Year">IV Year</option>
+                                    <option value="Completed">Completed</option>
+                                </select>
+
+                            </div>
+                        </div>
+
+                        <div class="row mb-2">
+                            <div class="col-sm-6">
+                                <label class="mb-1">Stream</label>
+                                <select class="form-select" name="stream"
+                                    aria-label="Default select example"
+                                    required>
+                                    <option value="" selected disabled>Select
+                                        stream
+                                    </option>
+                                    <option value="IT">IT</option>
+                                    <option value="CS">CS</option>
+                                    <option value="CT">CT</option>
+                                    <option value="ETC">ETC</option>
+                                    <option value="ETRX">ETRX</option>
+                                    <option value="Civil">Civil</option>
+                                    <option value="Mechanical">Mechanical</option>
+                                    <option value="Others">Others</option>
+                                </select>
+
+                            </div>
+                            <div class="col-sm-6">
+
+                                <div class="form-label">
+                                    <label class="mb-1">Gender</label>
+                                    <label for="gender" class="form-control">
+                                        <label for="male"> <input type="radio"
+                                                class="radio-inline" id="male"
+                                                name="gender" value="m"
+                                                required> Male</label>
+                                        <label for="female"><input type="radio"
+                                                class="radio-inline" id="female"
+                                                name="gender" value="f"
+                                                required> Female</label>
+                                        <label for="other"><input type="radio"
+                                                class="radio-inline" id="other"
+                                                name="gender" value="o"
+                                                required> Other</label>
+                                    </label>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="row mb-3">
+                            <div class="col-sm-6">
+                                <label class="mb-2">Address</label>
+                                <!-- <div class="form-floating"> -->
+                                    <textarea class="form-control"
+                                     
+                                        style="height: 29px" 
+                                        required></textarea>
+                                    <!-- <label for="floatingTextarea" class="text-center pb-2">Enter your Address</label> -->
+                                <!-- </div> -->
+
+                            </div>
+                            <div class="col-sm-6">
+                                <label for="formFile" class="form-label">Upload
+                                    Payment Receipt</label>
+                                <input class="form-control" type="file"
+                                    id="formFile" onkeyup="EnableDisable(this)"
+                                    name="receipt" required>
+
+                            </div>
+                        </div>
+
+                        <!-- <div class="mb-3 form-check ">
+                           
+                            <a href="">Terms & Condition</a>
+                        </div> -->
+                        <button type="submit" id="btn" class="text-white btn
+                            btn-warning form-control mb-0"
+                            style="background-color:
+                            rgb(226, 69, 11); font-weight: bolder;"
+                            value="complete">Register</button>
+
+                    </form>
+
+
+                </div>
+                <div class="col-md-2 text-center border border-dark"
+                    style="background-color:
+                   #FF5733">
+                    <div class="">
+                        <div class="card-body mt-5">
+
+                            <!-- <p style="font-weight: bolder; font-size: 2vw;">Axiom Tech Guru Pvt. Ltd. </p>
+                        <p class="py-0 text-white" style="font-weight: bolder; font-style: italic; font-size: 1vw;">"IT SOLUTIONS, BY IT MASTERS"</p> -->
+                            <!-- <p style="font-weight: bolder;" class="mt-5 text-white">Note: Please send your payment receipt on </p> -->
+                            <!-- <h6 style="color: antiquewhite; font-size: 1vw; font-weight: bolder;" class="mt-5">rahul@axiotechguru.com
+                        </h6> -->
+                            <div class="mt-5">
+                                <img src="axiomQRcode.png" class="img-fluid my-5
+                                    align-items-baseline" style="width: 100%;">
+                                <p style="font-weight: bolder;"
+                                    class="text-white
+                                    mt-1">Scan QR code for payment </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js "
+        integrity="sha386col-sm-6-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p "
+        crossorigin="anonymous "> -->
+        <script>
+        // function changeButtonBg(color) {
+        //     document.getElementById("btn").style.background = color;
+        // onclick="changeButtonBg('orange');"
+        // }
+
+        (function() {
+            "use strict"
+
+            var button = document.getElementById('btn');
+
+            button.disabled = true;
+
+            var f = document.getElementById('formFile');
+
+            f.addEventListener('change', function() {
+
+                if (f.value === '') {
+
+                    button.disabled = true;
+
+                } else {
+                    button.disabled = false;
+                }
+            });
+
+        })();
+    </script>
+    </body>
+
+</html>
